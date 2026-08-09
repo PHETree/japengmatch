@@ -48,7 +48,7 @@ function executeGame() {
 	
 	function buttonHandler() {
 	    var anchor = document.createElement('a');
-        anchor.href = "./htmls/fall3start.html";
+        anchor.href = "../htmls/fall3start.html";
         anchor.click();
 	}
  
