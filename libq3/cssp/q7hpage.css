@@ -1,0 +1,124 @@
+body {
+    background-color: powderblue;
+	overscroll-behavior: contain;  /* turns off drag down refresh effect on the SMARTPHONE */
+}
+
+#WrapAll 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+ /* So begins the Drop down menu  styling */
+ 
+.dropbtn {
+  position: absolute;
+  top: 150px;	
+  left: 190px;  
+  /* margin-left: 90px;	  */
+  background-color: #3498DB;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+} 
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 188px;
+  left: 191px;
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 80x;
+  overflow: auto;
+  box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+  
+#homePgImg .fade-inSBob {
+	visibility: hidden;
+}
+
+.fade-inSBob {
+  animation: fadeIn ease 8s;
+  -webkit-animation: fadeIn ease 8s;
+  -moz-animation: fadeIn ease 8s;
+  -o-animation: fadeIn ease 8s;
+  -ms-animation: fadeIn ease 8s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+ 
+ 
+
+ 
+ 
