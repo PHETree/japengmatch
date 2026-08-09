@@ -1,0 +1,181 @@
+#WrapAll {
+	overflow: hidden;
+}
+
+.nList {
+  position: absolute;
+  top: 10px;
+  animation: myanimation 30s infinite;
+  /* animation-timing-function: ease-in; */
+}
+ 
+ @keyframes myanimation {
+  0%   { left:-140px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:-140px; top:0px;}
+ }
+ 
+ /* @keyframes moveSquare {
+  from {top: 70px;}
+  to {left: -250px;}
+} */
+ 
+ .stuFace1 {
+  position: absolute;	
+  top: 90px;
+  left: 75px;
+  background: url("./.././../lib6/imgsp/AnzuAWSStu.png") no-repeat;
+  height: 140px;
+  width: 135px;
+}
+
+.stuFace2 {
+  position: absolute;	
+  top: 90px;
+  left: 75px;
+  background: url("./.././../lib6/imgsp/YuzukiAWSStu.png") no-repeat;
+  height: 140px;
+  width: 135px;
+}
+
+.overPanda {
+  position: absolute;	
+  height: 40px;
+  width: 25px;
+  top: 60px;
+  left: 20px;
+  animation: moveSquare 4s;
+  z-index: 2;
+  animation-fill-mode: both;
+ }
+ 
+
+.youWinPanda {
+  position: absolute;	
+  height: 40px;
+  width: 25px;
+  top: 60px;
+  left: 350px;
+  animation: moveSquare2 6s;
+  z-index: 1;
+  animation-fill-mode: both;
+  visibility: hidden;
+}
+
+ 
+@keyframes moveSquare {
+  from {top: 70px;}
+  to {left: -250px;}
+}
+
+@keyframes moveSquare2 {
+  from {top: 70px;}
+  to {left:  300px;}
+}
+
+#spongeBtn {
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	visibility: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #fff;
+	padding: 8px 16px;
+	border: 2px solid #000;
+	cursor: pointer;
+   		
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 40px;	
+	
+	background:-webkit-linear-gradient(top, #a3a3a3, orange);
+	background:-moz-linear-gradient(top, #a3a3a3, orange);
+	background: linear-gradient(top, #a3a3a3, orange);
+	
+	-webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+#spongeBtn:hover 
+{
+  background: -webkit-linear-gradient(top, #acc7a3, #506651);
+  background: -moz-linear-gradient(top, #acc7a3, #506651);
+  background: linear-gradient(top, #acc7a3, #506651);
+}
+
+ #spongeBtn:active
+{
+  background: -webkit-linear-gradient(top, #858565, #c5c9a9);
+  background: -moz-linear-gradient(top, #858565, #c5c9a9);
+  background: linear-gradient(top, #858565, #c5c9a9);
+}
+
+/* the input box */
+#whoAmI {
+	position: absolute;
+	top: 264px;
+	left: 60px;
+	visibility: hidden;
+ }
+
+input[type=text] {
+  width: 50%;
+ }
+ 
+#cyanCover {
+	position: absolute;
+	top: 328px;
+	left: 135px;
+	width: 140px;
+	height:44px;
+	background-color: cyan;
+	z-index: 1;
+}
+
+ 
+#whoamiBTN {
+	position: absolute;
+	top: 330px;
+	left: 140px;
+ 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #fff;
+	padding: 8px 16px;
+	border: 2px solid #000;
+       		
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 40px;	
+	
+	background:-webkit-linear-gradient(top, #a3a3a3, blue);
+	background:-moz-linear-gradient(top, #a3a3a3, blue);
+	background: linear-gradient(top, #a3a3a3, blue);
+	
+	-webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+		
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.namebank {
+	position: sticky;
+	top: 16px;
+	background-color: pink;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-left: 220px;
+	float: left;
+}
