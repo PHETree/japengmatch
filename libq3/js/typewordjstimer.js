@@ -383,7 +383,7 @@
 		
 		GoToLastQuiz(); */
 	   
-	    window.location.href = "./htmls/lastQuiz.html";     
+	    window.location.href = "../htmls/lastQuiz.html";     
 	}
 	
 	function loadHandler()
