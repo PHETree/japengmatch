@@ -141,7 +141,7 @@
     //  ****************************************************
         dropMenufnct.addEventListener("click", dropDwnBtn, false);
 	
-	/* When the user clicks on the button, 
+	/* When the user clicks on the button,  
 	toggle between hiding and showing the dropdown content */
 	function dropDwnBtn() {
  	    document.getElementById("myDropdown").classList.toggle("show");
