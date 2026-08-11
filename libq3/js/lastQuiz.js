@@ -305,7 +305,7 @@ function executeGame() {
 		 else
 		 {
 			// WE WIN. Go to AWS Guess mystery student picture
-     	       window.location.href = "./htmls/moveSquare.html";
+     	       window.location.href = "../htmls/moveSquare.html";
          }
    	}
 	
